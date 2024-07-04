@@ -1,5 +1,11 @@
 import random
 
+# Ask the user for their name
+name = input("Who are you? \n> ")
+
+# Greet the user
+print(f"Hello, {name}!")
+
 print("Tossing a coin...")
 
 heads_count = 0
